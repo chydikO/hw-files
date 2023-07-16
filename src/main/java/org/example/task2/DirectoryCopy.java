@@ -31,7 +31,6 @@ public class DirectoryCopy {
             }
         }
 
-        // Отримуємо список файлів і папок у вихідній директорії
         File[] files = sourceDir.listFiles();
 
         if (files != null) {
